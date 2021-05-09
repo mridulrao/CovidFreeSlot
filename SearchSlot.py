@@ -25,7 +25,7 @@ def start():
 	date = input("Input date in format -> dd-mm-yyyy ")
 
 	Final_Slot = []
-	Final_Slot = AvailableSlot(pin_code, date)
+	Final_Slot = FreeSlot(pin_code, date)
 
 	if(len(Final_Slot) > 1):
 		print("Slot Avalaible")
